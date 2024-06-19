@@ -1,0 +1,384 @@
+:root {
+    --white: #ffffff;
+    --alternative-white: #f9fcfd;
+    --light: #e9edf5;
+    --alternative-light: #f0f5f6;
+
+    --light-gray: #c7d4e0;
+    --gray: #91a0ad;
+    --dark-gray: #4a5864;
+    --dark: #37414a;
+    --black: #000000;
+
+    --accente: #6ad1df;
+}
+
+* {
+    background-color: var(--white);
+}
+#r_block_tray_widget {
+    background-color: var(--alternative-light);
+}
+.QTabWidget > .QTabBar::tab {
+    height: 0;
+}
+
+.QLabel {
+    background-color: transparent;
+    color: var(--dark-gray);
+    font: 700 12pt "Segoe UI";
+}
+
+.QPushButton {
+    border: 0;
+    border-radius: 5px;
+    color: var(--alternative-light);
+    font: 600 11pt "Segoe UI";
+    padding: 6px;
+}
+
+.QPushButton[flat="true"] {
+    background-color: var(--accente);
+}
+
+.QPushButton[flat="false"] {
+    background-color: var(--gray);
+}
+
+.QPushButton:hover {
+    background-color: var(--dark-gray);
+}
+
+.QListWidget {
+    background: transparent;
+    border: 0;
+}
+
+.QListWidget:item {
+    padding: 2%;
+    color: var(--dark);
+}
+
+.QListWidget::item:selected {
+    color: var(--dark);
+}
+
+.QCheckBox {
+    color: var(--gray);
+}
+
+.QCheckBox::indicator {
+    border-radius: 5px;
+    border: 1px solid var(--gray);
+}
+
+.QCheckBox::indicator:checked {
+    background-color: var(--accente);
+}
+
+.QListWidget {
+    color: black;
+    outline: 0;
+    border: 0;
+}
+
+.QListWidget::item {
+    border: 0;
+}
+
+.QListWidget::item:selected {
+
+}
+
+.QListWidget::item:hover {
+
+}
+
+.QStackedWidget > .QWidget {
+    background-color: var(--light);
+}
+
+.QScrollBar {
+    background-color: var(--light-gray);
+    margin: 0;
+}
+
+.QScrollBar::handle {
+    background-color: var(--gray);
+    min-height: 20px;
+}
+
+.QScrollBar::add-line,
+.QScrollBar::sub-line {
+    background: none;
+}
+
+.QScrollBar::add-page,
+.QScrollBar::sub-page {
+    background: none;
+}
+
+.QTreeWidget {
+    color: var(--dark-gray);
+    outline: 0;
+}
+
+.QTreeWidget::item {
+    padding: 10px 0;
+}
+
+.QTreeWidget::item:hover {
+    background-color: var(--alternative-light);
+}
+
+.QTreeWidget::item:selected {
+    background-color: var(--light-gray);
+    color: var(--dark);
+}
+
+.QLineEdit {
+    color: var(--black);
+    border: 0;
+}
+
+.QSpinBox {
+    color: var(--black);
+}
+
+.QDoubleSpinBox {
+    color: var(--black);
+}
+
+.QComboBox {
+    border: 1px solid var(--light-gray);
+    border-radius: 6px;
+    color: var(--dark-gray);
+    background: transparent;
+}
+
+.QTableWidget {
+    color: var(--dark);
+    outline: 0;
+}
+
+.QTableWidget::item {
+    color: var(--dark)
+}
+
+.QTableWidget::item * {
+    color: var(--dark-gray);
+}
+
+.QTableWidget::item:selected {
+    background-color: var(--light-gray);
+    color: var(--dark);
+}
+
+.QTableWidget > .QHeaderView {
+    color: var(--dark);
+}
+
+QMenu {
+    margin: 0;
+    background-color: var(--light);
+}
+
+QMenu::item {
+    padding: 5px 20px;
+    color: var(--black);
+}
+
+QMenu::item:selected {
+    background-color: var(--light-gray);
+}
+
+.QComboBox QAbstractItemView {
+    margin: 0;
+    background-color: var(--light);
+    color: var(--black);
+}
+
+.QComboBox QAbstractItemView:selected {
+    background-color: var(--light-gray);
+}
+
+
+#corner_block {
+    background-color: var(--accente);
+}
+
+#lbl_system_name {
+    color: var(--white);
+}
+
+#t_block {
+    background-color: var(--white);
+}
+
+#r_block {
+    background-color: var(--alternative-light);
+}
+#l_block {
+    background-color: var(--dark-gray);
+}
+
+#t_block > .QPushButton {
+    background-color: var(--light-gray);
+    color: var(--dark);
+}
+#t_block > .QPushButton:hover {
+    background-color: var(--gray);
+}
+
+#lw_tabs {
+}
+
+#lw_tabs::item {
+    padding: 10px 30px;
+    color: var(--white);
+}
+
+#lw_tabs::item:hover {
+
+}
+
+#lw_tabs::item:selected {
+    background-color: var(--dark);
+}
+
+#wgt_selection_info, #trw_modules {
+    background-color: var(--alternative-light);
+}
+#wgt_table_tools > .QWidget {
+    background-color: transparent;
+}
+
+#wgt_selection_info > .QLabel {
+    font: 11pt "Segoe UI";
+}
+
+#wgt_filters {
+    border: 1px solid var(--light-gray);
+    border-radius: 5px;
+}
+
+#btn_filter {
+    background-color: transparent;
+    padding: 4px;
+    border-radius: 10px;
+}
+
+#btn_filter:hover {
+    background-color: var(--light-gray);
+}
+
+#wgt_cmd_bg {
+    border-radius: 5px;
+}
+
+#cmb_table {
+    padding: 6px;
+}
+
+#lst_filter::item {
+    color: var(--dark-gray);
+}
+
+#lst_filter::item:selected {
+    color: var(--dark-gray);
+}
+
+#btn_left, #btn_right, #btn_right_right, #btn_left_left {
+    font: 600 13pt "Segoe UI";
+    padding: 2px;
+}
+
+#lst_table_n {
+    color: var(--gray);
+}
+
+#wdt_lbl_rows_bg {
+    border: 1px solid var(--light-gray);
+    border-radius: 5px;
+}
+
+#lbl_rows {
+    padding: 6px;
+}
+
+#wgt_settings_lbl_bg {
+    padding: 10px;
+}
+
+#settings_tree {
+    background-color: var(--alternative-light);
+}
+
+#settings_tree::item:selected {
+    background-color: var(--light-gray);
+}
+
+#FilterMenu {
+    background-color: var(--alternative-light);
+}
+
+#FilterMenu > .QWidget {
+    background-color: var(--white);
+    border: 1px solid var(--light-gray);
+    border-radius: 6px;
+}
+
+#FilterMenu .QComboBox {
+    background-color: transparent;
+    padding: 6px;
+    border: 0;
+}
+
+#FilterMenu .QLineEdit,
+#FilterMenu .QDateEdit {
+    border: 0;
+    background: transparent;
+    color: var(--dark-gray);
+}
+
+#lst_submodules {
+    font: 600 12pt "Segoe UI";
+}
+#lst_submodules::item {
+    padding: 20%;
+}
+#lst_submodules::item:hover {
+    background-color: var(--light-gray);
+}
+
+#wgt_notifications{
+    background-color: transparent;
+}
+#r_block > .QWidget{
+    background-color: var(--alternative-light);
+}
+#wgt_cmb_gb {
+    border-radius: 6px;
+}
+#cmb_notification_impotent {
+    padding: 4px;
+}
+#btn_profile_logo {
+    background-color: transparent;
+}
+#scrollArea #scrollAreaWidget {
+    background-color: var(--alternative-light);
+}
+#notification_widget_bg {
+    background-color: var(--light);
+    border-radius: 2px;
+}
+#notification_widget_bg #lbl_body {
+    font: 11pt "Segoe UI";
+}
+#notification_widget_bg #btn_icon {
+    background-color: transparent;
+}
+#notification_widget_bg #lbl_time {
+    font: 600 9pt "Segoe UI";
+}

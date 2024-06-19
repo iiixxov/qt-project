@@ -1,0 +1,38 @@
+:root {
+    --white: #ffffff;
+    --alternative-white: #f9fcfd;
+    --light: #e9edf5;
+    --alternative-light: #f0f5f6;
+
+    --light-gray: #c7d4e0;
+    --gray: #91a0ad;
+    --dark-gray: #4a5864;
+    --dark: #37414a;
+    --black: #000000;
+
+    --accente: #6ad1df;
+}
+
+
+#notification_widget_bg {
+    border-radius: 2px;
+    background-color: var(--dark-gray);
+}
+
+#notification_widget_bg #lbl_body {
+    font: 11pt "Segoe UI";
+    color: var(--white);
+}
+
+#notification_widget_bg #btn_icon {
+    background-color: transparent;
+}
+
+#notification_widget_bg #lbl_header {
+    color: var(--white);
+}
+
+#notification_widget_bg #lbl_time {
+    font: 600 9pt "Segoe UI";
+    color: var(--light-gray);
+}

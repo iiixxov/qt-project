@@ -1,0 +1,37 @@
+{
+  "_launcher": {
+    "debug": true,
+    "version": "1.0",
+    "runfile": "main.py"
+  },
+  "_database": {
+    "host": "localhost",
+    "port": 5432,
+    "db_name": "postgres",
+    "connect_args": {
+      "sslmode": "require"
+    }
+  },
+  "_saved": {
+    "db_username": "postgres"
+  },
+  "_sizes": {
+    "settings_tree_section": 200,
+    "data_sections": [
+      1,
+      10
+    ]
+  },
+  "tables": {
+    "row_limit": 100,
+    "num_len_limit": 5
+  },
+  "notifications": {
+    "select_interval": 3000,
+    "init_select_limit": 10,
+    "body_preview": 15,
+    "popup_margin": 15,
+    "popup_show_time": 3000,
+    "popup_css_path": "data/popup_style.css"
+  }
+}

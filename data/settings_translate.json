@@ -1,0 +1,9 @@
+{
+    "tables": "Таблицы",
+        "tables.row_limit": "Лимит строк",
+        "tables.num_len_limit": "Максимальная длина числа для суммы",
+
+    "notifications": "Уведомления",
+        "notifications.select_interval": "Интервал выборки (мс)",
+        "notifications.init_select_limit": "Кол-во последних уведомлений"
+}
